@@ -35,3 +35,12 @@
 
 // =================== COOKIE ===========================
 // MOST IMPORTANT VALO KORE SIKHTE HOBE
+
+
+// ================== JWT RESURB KEY ==================
+// *** jwt er stracture er 3ti part jemon header signature payload
+// 1 -> iss (issuer)
+// 2 -> iat (issued At)
+// 3 -> exp (expiration time)
+// 4 -> sub (subject)
+// 5 -> aud (audience)
