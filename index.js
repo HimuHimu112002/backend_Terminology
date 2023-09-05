@@ -44,3 +44,24 @@
 // 3 -> exp (expiration time)
 // 4 -> sub (subject)
 // 5 -> aud (audience)
+
+
+// ==================== Rate limite akhon user koto min er majhe koto guli request korte parbe ta set kore deoyar jonno ====
+
+
+//import { rateLimit } from 'express-rate-limit'
+
+//const limiter = rateLimit({
+	//windowMs: 15 * 60 * 1000, // 15 minutes
+	//max: 100, // Limit each IP to 100 requests per `window` (here, per 15 minutes)
+	//standardHeaders: 'draft-7', // draft-6: RateLimit-* headers; draft-7: combined RateLimit header
+	//legacyHeaders: false, // X-RateLimit-* headers
+	// store: ... , // Use an external store for more precise rate limiting
+//})
+
+// Apply the rate limiting middleware to all requests
+//app.use(limiter)
+
+
+// ========================= SERVER RENDARING ===================
+// back-end code backend server giye run kore then browser show korake bole server side rendaring
